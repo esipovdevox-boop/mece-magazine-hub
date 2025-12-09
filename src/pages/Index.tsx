@@ -16,7 +16,7 @@ const Index = () => {
         {/* Hero Section */}
         <section className="mb-12 text-center">
           <h1 className="font-display text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl">
-            MECE Magazine
+            MECÉ Magazine
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             A curated collection of stunning photography and captivating stories, 
@@ -78,9 +78,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-12">
         <div className="container mx-auto px-4 text-center">
-          <p className="font-display text-xl font-semibold">MECE</p>
+          <p className="font-display text-xl font-semibold">MECÉ</p>
           <p className="mt-2 text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Mece Magazine. All rights reserved.
+            © {new Date().getFullYear()} Mecé Magazine. All rights reserved.
           </p>
         </div>
       </footer>

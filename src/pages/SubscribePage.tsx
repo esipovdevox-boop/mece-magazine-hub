@@ -11,7 +11,7 @@ const SubscribePage = () => {
         {/* Hero */}
         <section className="mb-16 text-center">
           <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
-            Subscribe to MECE
+            Subscribe to MECÉ
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             Choose the plan that works best for you. Get access to stunning 
@@ -66,9 +66,9 @@ const SubscribePage = () => {
       {/* Footer */}
       <footer className="border-t border-border py-12">
         <div className="container mx-auto px-4 text-center">
-          <p className="font-display text-xl font-semibold">MECE</p>
+          <p className="font-display text-xl font-semibold">MECÉ</p>
           <p className="mt-2 text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Mece Magazine. All rights reserved.
+            © {new Date().getFullYear()} Mecé Magazine. All rights reserved.
           </p>
         </div>
       </footer>

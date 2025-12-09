@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
           <span className="font-display text-2xl font-bold tracking-tight">
-            MECE
+            MECÉ
           </span>
         </Link>
 
