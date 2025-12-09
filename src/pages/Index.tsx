@@ -1,6 +1,7 @@
 import { magazineIssues } from '@/data/mockData';
 import IssueCard from '@/components/IssueCard';
 import Header from '@/components/Header';
+import FeaturedSlider from '@/components/FeaturedSlider';
 
 const Index = () => {
   const sortedIssues = [...magazineIssues].sort(
@@ -13,7 +14,7 @@ const Index = () => {
       
       <main className="container mx-auto px-4 py-12">
         {/* Hero Section */}
-        <section className="mb-16 text-center">
+        <section className="mb-12 text-center">
           <h1 className="font-display text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl">
             MECE Magazine
           </h1>
@@ -22,6 +23,9 @@ const Index = () => {
             delivered to your screen every month.
           </p>
         </section>
+
+        {/* Featured Articles Slider */}
+        <FeaturedSlider />
 
         {/* Latest Issue Feature */}
         {sortedIssues[0] && (

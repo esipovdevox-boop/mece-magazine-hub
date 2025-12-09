@@ -17,3 +17,12 @@ export interface Subscription {
   features: string[];
   popular?: boolean;
 }
+
+export interface FeaturedArticle {
+  id: string;
+  title: string;
+  subtitle: string;
+  image: string;
+  issueId: string;
+  issueNumber: number;
+}

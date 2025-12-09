@@ -1,4 +1,4 @@
-import { MagazineIssue, Subscription } from '@/types/magazine';
+import { MagazineIssue, Subscription, FeaturedArticle } from '@/types/magazine';
 
 export const magazineIssues: MagazineIssue[] = [
   {
@@ -121,5 +121,48 @@ export const subscriptions: Subscription[] = [
       'Early access to all releases',
       'Priority customer support',
     ],
+  },
+];
+
+export const featuredArticles: FeaturedArticle[] = [
+  {
+    id: '1',
+    title: 'The Art of Winter Photography',
+    subtitle: 'Capturing the magic of snow-covered landscapes',
+    image: 'https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=1200&h=600&fit=crop',
+    issueId: '1',
+    issueNumber: 24,
+  },
+  {
+    id: '2',
+    title: 'Golden Hour Secrets',
+    subtitle: 'Master the perfect autumn light',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=600&fit=crop',
+    issueId: '2',
+    issueNumber: 23,
+  },
+  {
+    id: '3',
+    title: 'Mountain Escapes',
+    subtitle: 'Journey through breathtaking peaks',
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&h=600&fit=crop',
+    issueId: '3',
+    issueNumber: 22,
+  },
+  {
+    id: '4',
+    title: 'Forest Mystique',
+    subtitle: 'Exploring enchanted woodland paths',
+    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&h=600&fit=crop',
+    issueId: '4',
+    issueNumber: 21,
+  },
+  {
+    id: '5',
+    title: 'Ocean Horizons',
+    subtitle: 'Where sky meets sea in perfect harmony',
+    image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=1200&h=600&fit=crop',
+    issueId: '6',
+    issueNumber: 19,
   },
 ];
